@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./lib/bootstrap.min.css">
+    <link rel="stylesheet" href="./main.css">
+    <title>Dr. Shoes</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Dr. Shoes</h1>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="#sobre">Sobre a Dr. Shoes</a>
+                    </li>
+                    <li>
+                        <a href="#produtos">Produtos</a>
+                    </li>
+                </ul>
+            </nav>
+       </div>
+    </header>
+    
+    <div class="container">
+        <section class="sobre" id="sobre">                        
+            <div class="container-sobre">
+
+                <!-- carousel -->
+                <div id="carousel-exemplo" class="carousel carousel-fade slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div data-bs-interval="3000" class="carousel-item active">
+                            <img class="d-block w-100" src="./images/loja.jpg" alt="Foto da fachada da loja">                           
+                        </div>
+                        <div data-bs-interval="3000" class="carousel-item">
+                            <img class="d-block w-100" src="./images/loja2.jpg" alt="Foto do interior da loja">                           
+                        </div>
+                        <div data-bs-interval="3000" class="carousel-item">
+                            <img class="d-block w-100" src="./images/loja3.jpg" alt="Foto do interior da loja">
+                        </div>
+                    </div>
+            
+                    <button data-bs-target="#carousel-exemplo" data-bs-slide="prev" class="carousel-control-prev" type="button">
+                        <span class="carousel-control-prev-icon"></span>
+                    </button>
+                    <button data-bs-target="#carousel-exemplo" data-bs-slide="next" class="carousel-control-next" type="button">
+                        <span class="carousel-control-next-icon"></span>
+                    </button>
+            
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carousel-exemplo" class="active" data-bs-slide-to="0"></button>
+                        <button type="button" data-bs-target="#carousel-exemplo" data-bs-slide-to="1"></button>
+                        <button type="button" data-bs-target="#carousel-exemplo" data-bs-slide-to="2"></button>
+                    </div>
+                </div>
+                <!--Fim carousel-->
+                
+                <div>
+                    <h2>Sobre a Dr. Shoes</h2>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores, quibusdam. Asperiores et quae eveniet ipsum odit praesentium odio expedita, minus assumenda nisi deserunt, ea optio velit, quaerat totam recusandae temporibus! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores, quibusdam. Asperiores et quae eveniet ipsum odit praesentium odio expedita, minus assumenda nisi deserunt, ea optio velit, quaerat totam recusandae temporibus! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores, quibusdam. Asperiores et quae eveniet ipsum odit praesentium odio expedita, minus assumenda nisi deserunt, ea optio velit, quaerat totam recusandae temporibus! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores, quibusdam. Asperiores et quae eveniet ipsum odit praesentium odio expedita, minus assumenda nisi deserunt, ea optio velit, quaerat totam recusandae temporibus!
+                    </p>
+                </div>                
+            </div>
+        </section>
+            
+        <!-- Cards -->
+        <section class="produtos" id="produtos">
+            <h2>Produtos</h2>
+            <div class="container-produtos">                
+                <div class="row">
+                    <div class="produto">
+                        <div class="col">
+                            <article class="card">                               
+                                <img src="./images/tenis-adidas.jpg"/>
+                                <div class="card-body">
+                                    <h5 class="card-title">Tênis Adidas Modelo 2023</h5>
+                                    <p class="card-text">Tênis Adidas disponível nos tamanhos 36, 37, 38, 39, 40, 41 e 42</p>
+                                    <a id="botao-carrinho" href="#" class="btn btn-primary">Adicionar ao carrinho</a>                        
+                                </div>                                
+                            </article>                
+                        </div>
+                    </div>
+                    <div class="produto">
+                        <div class="col">
+                            <article class="card">                               
+                                <img src="./images/tenis-nike.jpg"/>
+                                <div class="card-body">
+                                    <h5 class="card-title">Tênis Nike Modelo 2023</h5>
+                                    <p class="card-text">Tênis Nike disponível nos tamanhos 36, 37, 38, 39, 40, 41 e 42</p>
+                                    <a id="botao-carrinho" href="#" class="btn btn-primary">Adicionar ao carrinho</a>                        
+                                </div>                                
+                            </article>                
+                        </div>
+                    </div>
+                    <div class="produto">
+                        <div class="col">
+                            <article class="card">                               
+                                <img src="./images/tenis-mizuno.jpg"/>
+                                <div class="card-body">
+                                    <h5 class="card-title">Tênis Mizuno Modelo 2023</h5>
+                                    <p class="card-text">Tênis Mizuno disponível nos tamanhos 36, 37, 38, 39, 40, 41 e 42</p>
+                                    <a id="botao-carrinho" href="#" class="btn btn-primary">Adicionar ao carrinho</a>                        
+                                </div>                                
+                            </article>                
+                        </div>
+                    </div>
+                    <div class="produto">
+                        <div class="col">
+                            <article class="card">                               
+                                <img src="./images/tenis-asics.jpg"/>
+                                <div class="card-body">
+                                    <h5 class="card-title">Tênis Asics Modelo 2023</h5>
+                                    <p class="card-text">Tênis Asics disponível nos tamanhos 36, 37, 38, 39, 40, 41 e 42</p>
+                                    <a id="botao-carrinho" href="#" class="btn btn-primary">Adicionar ao carrinho</a>                        
+                                </div>                                
+                            </article>                
+                        </div>
+                    </div>
+                    <div class="produto">
+                        <div class="col">
+                            <article class="card">                               
+                                <img src="./images/tenis-olympikus.jpg"/>
+                                <div class="card-body">
+                                    <h5 class="card-title">Tênis Olympikus Modelo 2023</h5>
+                                    <p class="card-text">Tênis Olympikus disponível nos tamanhos 36, 37, 38, 39, 40, 41 e 42</p>
+                                    <a id="botao-carrinho" href="#" class="btn btn-primary">Adicionar ao carrinho</a>                        
+                                </div>                                
+                            </article>                
+                        </div>
+                    </div>
+                    <div class="produto">
+                        <div class="col">
+                            <article class="card">                               
+                                <img src="./images/tenis-under-armour.jpg"/>
+                                <div class="card-body">
+                                    <h5 class="card-title">Tênis Under Armour Modelo 2023</h5>
+                                    <p class="card-text">Tênis Under Armour disponível nos tamanhos 36, 37, 38, 39, 40, 41 e 42</p>
+                                    <a id="botao-carrinho" href="#" class="btn btn-primary">Adicionar ao carrinho</a>                        
+                                </div>                                
+                            </article>                
+                        </div>
+                    </div>
+                </div>          
+            </div>            
+        </section>
+        <!-- Fim dos Cards -->
+    </div>    
+
+    <script src="./lib/bootstrap.bundle.min.js"></script>
+</body>
+</html>
